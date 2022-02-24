@@ -57,10 +57,17 @@ header {
     padding: 40px 35px;
   }
 
-  footer h2 {
+  footer h2{
     display: inline;
     color: #024e76;
     font-size: 30px;
+    margin: 0;
+  }
+
+  footer h3{
+    display: inline;
+    color: #024e76;
+    font-size: 20px;
     margin: 0;
   }
 
