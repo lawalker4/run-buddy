@@ -240,11 +240,32 @@ header {
     line-height: 1.3;
   }
 
-  <iframe 
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.2758496565275!2d-77.45865592000018!3d37.548564233013266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b111450768b767%3A0xfefc428dcfe054ef!2s1234%20Grove%20Ave%2C%20Richmond%2C%20VA%2023220!5e0!3m2!1sen!2sus!4v1645907446760!5m2!1sen!2sus" 
-  width="400" 
-  height="400" 
-  style="border:0;" 
-  allowfullscreen=""
-  loading="lazy">
-</iframe>
+  .section-title {
+    font-size: 55px;
+    display: inline-block;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    margin-bottom: 35px;
+    color: #fce138;
+    ;
+  }
+
+  .contact {
+    text-align: center;
+    background: #024e76;
+    color: #fce138;
+  }
+
+  .contact-info iframe {
+    width: 400px;
+    height: 400px;
+  }
+
+  .contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+  }
